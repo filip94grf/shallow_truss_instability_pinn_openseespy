@@ -11,4 +11,9 @@ This repository contains Physics-Informed Neural Network models for prediction o
 
 !!!To make completely the same results results are freezed using random.seed(seed_value), for each slope, material and geometrical properties!!!
 
+Meaning of labels: PINN_ALGORITHM(SLOPE)_MATERIAL.ipynb where:
+                   ALGORITHM: ADAM, NADAM or LION
+                   SLOPE: 5, 15 or 25 degree
+                   MATERIAL: E1E2 - when both bars are of the same stiffness ; E1 - when bar 1 is with higher stiffness ; E2 - when bar 2 is with higher stiffness
+
 Cite the article: Đorđević, F. and Marinković, M. (2024), “PINN Surrogate Model for Nonlinear Equilibrium Path Analysis of Von Mises Shallow Truss”, Journal of Big Data, Elsevier.
